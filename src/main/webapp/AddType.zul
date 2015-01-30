@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Untitiled ZUL" contentType="text/html;charset=UTF-8"?><zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.AddTypeComposer" id="wndMain">
+    	<div height="20px" />
+    <label value="Type of Transport" style="font-size:25px"/>   
+    
+    <grid>
+        <rows>
+            <row spans="5">Edit Type</row>
+            <row>
+            	<label value="add Type :" style="font-size:15px"/>
+            	<textbox id="nameTs"/>
+            </row> 
+            <row>
+            	<label value="add Price :" style="font-size:15px"/>
+            	<textbox id="priceTs"/>
+              	<hlayout>
+           			 <button id="addT" label=" Add "></button> 
+       		 	</hlayout> 
+            </row> 
+            <row> 
+            	<label value="delete Type :" style="font-size:15px"/>
+                <combobox id="nameAll"/> 
+                <hlayout>
+           			 <button id="deleteT" label=" Delete "></button> 
+       		 	</hlayout> 
+            </row>
+        </rows>
+    </grid> 
+    </window>
+</zk>

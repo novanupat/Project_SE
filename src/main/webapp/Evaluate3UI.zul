@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Untitiled ZUL" contentType="text/html;charset=UTF-8"?><zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.Evaluate3Composer" style="margin:auto;padding-top:200px;padding-buttom:50px;" width="300px" height="145px" id="wndMain">
+<borderlayout height="145px">
+    	<north>
+    	</north>
+    	<center>
+			<vlayout>
+                    <grid>
+        				<columns>
+                            <column label="Packaging Type" sort="auto" style="font-size:14px" />
+                            <column label="Portage" />
+                        </columns>
+                        <rows>
+                                <row>
+                                    <label value="Ragular"/>
+                                    <intbox id="reginput" width="200px"/>
+                                </row>
+                                <row>
+                                    <label value="Express"/>
+                                    <intbox id="expinput" width="200px"/>
+                                </row>
+                                <row align="center">
+                                    <label value="confirm" style="text-align:center"/>
+                                    <button id="update1">Update</button>
+                                </row>
+                        </rows>
+                    </grid>
+			</vlayout>
+    	</center>
+    </borderlayout>
+    </window>
+</zk>

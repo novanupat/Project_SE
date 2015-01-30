@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Untitiled ZUL" contentType="text/html;charset=UTF-8"?><zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.AddTypeComposer2"  id="wndMain" >
+    	<borderlayout height="145px">
+    	<north>
+    	</north>
+    	<center>
+			<vlayout>
+                    <grid>
+        	            <rows>
+                                <row align="center">
+                                    <label value="Update Successful" style="text-align:center"/>
+                                </row>
+                                <row align="center">
+                                	 <button id="btnBack"> Back  </button>
+                                </row>
+                        </rows>
+                    </grid>
+			</vlayout>
+    	</center>
+    </borderlayout>
+    </window>
+</zk>

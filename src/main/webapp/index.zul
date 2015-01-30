@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Untitiled ZUL" style="background:#D3D3D3;" contentType="text/html;charset=UTF-8"?><zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.IndexComposer" style="margin:auto;padding-top:100px;padding-buttom:50px;" width="1000px" height="800px" id="wndMain">
+   <borderlayout style="background:gray;" height="600px">
+      <north height="25px" style="background:#F5F5F5" >
+        <hbox>
+            <textbox id="user" height="25px" style="" placeholder="User"/>
+            <textbox id="pass" height="25px" type="password" placeholder="Password"/>
+            <toolbar height="30px" style="margin: auto;">
+                <toolbarbutton id="profile" label="Profile" width="150px" style="font-size:14px;text-align:center;"/>  
+                <toolbarbutton id="receiver" label="Receiver" width="150px" style="font-size:14px;text-align:center;"/>
+                <toolbarbutton id="shipment" label="Shipment" width="150px" style="font-size:14px;text-align:center;"/>
+                <toolbarbutton id="type" label="TypeTransport" width="150px" style="font-size:14px;text-align:center;"/>
+                <toolbarbutton id="status" label="Check status" width="150px" style="font-size:14px;text-align:center;"/>
+                <toolbarbutton id="neweva" label="Chang Portage" width="150px" style="font-size:14px;text-align:center;"/>
+                <toolbarbutton id="ttype" label="Edit Transport" width="150px" style="font-size:14px;text-align:center;"/>
+                <toolbarbutton id="estatus" label="Edit Status" width="150px" style="font-size:14px;text-align:center;"/>
+                <toolbarbutton id="logout" label="Log Out" width="150px" style="font-size:14px;text-align:center;"/>
+                <toolbarbutton label="Log In" id="login" width="100px" style="font-size:14px;text-align:center;"/>  
+                <toolbarbutton label="Register" id="regis" width="100px" style="font-size:14px;text-align:center;"/>
+            </toolbar>
+          </hbox>
+      </north>
+      <center>
+        <vlayout>
+          <window id="inner">
+            <include id="changepage" src="LoginUI.zul" />
+          </window>
+        </vlayout>
+      </center>
+    </borderlayout>
+    </window>
+</zk>

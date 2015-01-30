@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Untitiled ZUL" contentType="text/html;charset=UTF-8"?><zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.BillComposer" id="wndMain">
+    <borderlayout style="background:white;" height="10000px">
+        <north> 
+        
+        </north>
+        <center>
+            <grid>
+        <auxhead>
+            <auxheader colspan="4" label="Detail User"/>
+        </auxhead>
+        <columns>
+            <column label="Bill" width="200px"/>
+            <column label=" "/>
+        </columns>
+        <rows>
+        <row>
+            Firstname
+            <label  id="fname" width="150px" />
+        </row>
+        <row>
+            Lastname
+            <label  id="lname" width="150px" />
+        </row>
+        <row>
+            PhoneNumber
+            <label  id="phonenum" width="150px" />
+        </row>
+        <row>
+            Address
+            <label id="address" width="150px" />
+        </row>
+       
+       
+        <row>
+            Charge
+            <label id="charge" width="150px" />
+        </row>
+
+         <row>
+            Discount
+            <label id="disc" width="150px" />
+        </row>
+
+        <row>
+            TotalCharge
+            <label id="ttcharge" width="150px" />
+        </row>
+        <row >
+            <button id="btnGoPro" label="See your information"/>
+        </row>
+    </rows>
+        
+    </grid>
+        </center>
+    </borderlayout>
+    </window>
+</zk>

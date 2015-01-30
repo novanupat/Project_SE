@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Type of Transport" contentType="text/html;charset=UTF-8"?><zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.TypsTsComposer"  id="wndMain" >
+
+    <div height="20px" />
+    <label value="Type of Transport" style="font-size:25px"/>   
+    
+    <grid>
+        <rows>
+            <row spans="5">Selected Service</row>
+            <row>
+              <radiogroup id="sv" width="1000px"/>                    
+            </row>            
+        </rows>
+    </grid> 
+    <space/>
+        <hlayout>
+            <label value="Service :" style="font-size:15px"/>
+            <label id="choice" style="font-size:15px"  /> 
+        </hlayout>
+    <space/>
+        <hlayout>
+            <label value="Increase Price :" style="font-size:15px"/>
+            <label id="exprice" style="font-size:15px"  width="85px"/>  
+        </hlayout>
+    <space/>
+        <hlayout>
+            <label value="Name :" style="font-size:15px"/>
+            <label id="name" style="font-size:15px"  width="85px"/>  
+        </hlayout>
+    <space/>
+        <hlayout>
+            <label value="Company Name  :" style="font-size:15px"/>
+            <label id="cpN" style="font-size:15px"  width="85px"/> 
+        </hlayout>  
+    <space/>      
+        <hlayout>
+            <label value="Price :" style="font-size:15px"/>
+            <label id="price" style="font-size:15px" width="85px"/>    
+        </hlayout>
+    <space/>
+        <hlayout>
+            <button id="save" label=" Save "></button> 
+        </hlayout>
+    </window>
+</zk>

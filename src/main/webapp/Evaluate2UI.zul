@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Untitiled ZUL" contentType="text/html;charset=UTF-8"?><zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.Evaluater2Composer" style="margin:auto;padding-top:200px;padding-buttom:50px;" width="800px" id="wndMain">
+    <borderlayout height="140px">
+    	<north>
+    	</north>
+    	<center>
+			<vlayout>
+                <grid width="800px" style="margin:auto;" >
+                        <columns>
+                            <column label="Packaging Type" sort="auto" style="font-size:20px" />
+                            <column label="Portage" />
+                        </columns>
+                        <rows>
+                                <row>
+                                    <label value="Ragular"/>
+                                    <label id="reg"/>
+                                </row>
+                                <row>
+                                    <label value="Express"/>
+                                    <label id="exp"/>
+                                </row>
+                                <row align="center">
+                                    <label value="" style="text-align:center"/>
+                                    <button id="update">Update</button>
+                                </row>
+                        </rows>
+                    </grid>
+				
+			</vlayout>
+    	</center>
+    </borderlayout>
+    </window>
+</zk>

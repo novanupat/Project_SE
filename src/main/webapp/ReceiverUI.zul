@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Receiver" contentType="text/html;charset=UTF-8"?><zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.ReceiverComposer" id="wndMain">
+    	<borderlayout style="background:white;" height="1300px">
+<north> 
+</north>
+
+<center>
+	<grid>
+						<columns sizable="true">
+							<column label="Information recipients" sort="auto" style="font-size:20px" />
+							<column label="" />
+						</columns>
+						
+					<rows>
+						
+						<row>
+							<hbox style="padding-top:10px;padding-left:125px">
+							First Name
+							</hbox>
+							<textbox id="firstname" width="200px"/>
+
+						</row>
+						<row>
+							<hbox style="padding-top:10px;padding-left:125px">
+							Last name
+							</hbox>
+							<textbox id="lastname" width="200px"/>
+						</row>
+						<row>
+							<hbox style="padding-top:10px;padding-left:125px">
+							Phone number
+							</hbox>
+							<textbox id="phonenumber" width="200px"/>
+						</row>
+						<row>
+							<hbox style="padding-top:10px;padding-left:125px">
+							Building name
+							</hbox>
+							<textbox id="building" width="200px"/>
+						</row>
+						<row>
+							<hbox style="padding-top:10px;padding-left:125px">
+							Street/Road name
+							</hbox>
+							<textbox id="street" width="200px"/>
+						</row>
+						<row>
+							<hbox style="padding-top:10px;padding-left:125px">
+							District
+							</hbox>
+							<textbox id="district" width="200px"/>
+						</row>
+						<row>
+							<hbox style="padding-top:10px;padding-left:125px">
+							Province
+							</hbox>
+							<textbox id="province" width="200px"/>
+						</row>
+						<row>
+							<hbox style="padding-top:10px;padding-left:125px">
+							Post Code
+							</hbox>
+							<intbox id="postcode" width="200px"/>
+						</row>
+						<row >
+							<hbox style="padding-top:10px;padding-left:125px">
+							Country
+							</hbox>
+							<combobox id="countryname" width="205px">
+								<comboitem label="Thailand" />
+								<comboitem label="Laos" />
+								<comboitem label="Malaysia" />
+								<comboitem label="Cambodia" />
+								<comboitem label="Myanmar" />
+							</combobox>
+						</row>
+						<row align="center">
+							<button id="save" label="Save"></button>
+							<button id="next" label="next"></button>
+						</row>	
+					</rows>	
+					</grid>	
+</center>
+
+</borderlayout>
+    </window>
+</zk>

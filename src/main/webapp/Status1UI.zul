@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Untitiled ZUL" contentType="text/html;charset=UTF-8"?><zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.Status1Composer"  id="wndMain">
+<grid id="grid1" visible="true">
+       <columns menupopup="auto">
+           
+            <column label="ID"/>
+            <column label="Status of pay"/>
+             <column label="Position"/>
+             <column label="Edit"/>
+        </columns>
+  
+  <rows id="rows" >
+            <row id="row">
+          
+            </row>
+</rows>
+
+</grid>
+
+<grid id="grid2" height="auto" visible="false" >
+ <rows height="auto" id="r11">
+                                    
+                                     <row>
+                                        <label value="ID" />
+                                        <label id="passId"/>
+
+                                        
+                                    </row>
+
+                                    <row>
+                                        <label value="Status of pay"/>
+                                        <combobox id="sos1" width="120px" value="paid">
+                                            <comboitem label="paid" />
+                                            <comboitem label="no paid" />
+                                        </combobox>
+                                    </row>
+                                  <row>
+                                        <label value="Position"/>
+                                        <combobox id="sos2" width="120px" value="To Do">
+                                    <comboitem label="To Do" />
+                                        <comboitem label="Packet Delivered" />
+                                        </combobox>
+                                    </row>    
+                                 
+                                    <row>
+
+                                        <button id="btnSave" label="Save"/>
+                                        <button id="btnCancel" label="Cancel"/>
+                                    </row>
+                                                   
+
+                            </rows>
+
+                        </grid>
+
+
+    </window>
+</zk>

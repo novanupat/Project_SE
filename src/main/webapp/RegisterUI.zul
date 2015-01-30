@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Register" contentType="text/html;charset=UTF-8"?><zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.RegisterComposer" id="wndMain" >
+	<borderlayout style="background:white;" height="1500px">
+	<north> 
+   					
+		   		</north>
+		   		<center>
+		   			<grid>
+					<rows>
+						<row width="400px" height="100px" style="font-size:40px">
+							<label value="Register Form" style="font-size:20px"/>
+						</row>
+						<row width="400px">								
+							<label value="Country (where are you based) *"/>
+							<combobox id="countryname" width="150px">
+								<comboitem id="comThailand" label="Thailand" />
+								<comboitem id="comLaos" label="Laos" />
+								<comboitem id="comMalaysia" label="Malaysia" />
+								<comboitem id="comCambodia" label="Cambodia" />
+								<comboitem id="comMyanmar" label="Myanmar" />
+							</combobox>
+						</row>
+						<row width="300px" style="font-size:10px">
+							<label value="Company Information" style="font-size:20px"/>
+						</row>
+						<row align="center">
+							
+							<label value="Company Name *" />
+							<textbox id="txtCompanyName" width="150px"/>
+							<label value="VAT" />
+							<hbox>
+							<textbox id="txtVAT" width="150px"/>
+							<image src="/images/help.png" popup="title"
+							style="cursor:pointer" />
+							<label value="Click" popup="title" />
+							</hbox>
+							<popup id="title" width="150px">
+								<html>Enter your company VAT Number/Tax ID.</html>
+							</popup>
+						</row>
+
+
+						<row align="center">
+							<label value="Company Phone *" />
+							<textbox id="txtCompanyPhone" width="150px"/>
+						</row>
+
+
+						<row width="500px" style="font-size:10px" >
+							<label value="Main Address" style="font-size:20px"/>
+						</row>
+						<row align="center">
+							<label value="Street name *" />
+							<textbox id="txtStreetname" width="150px"/>
+							<label value="Street number" />
+							<textbox id="txtStreetnumber"  width="150px"/>
+						</row>
+						<row align="center">
+							<label value="Postcode/Zip *" />
+							<intbox id="intPostcode"  width="150px"/>
+							<label value="Town/City * " />
+							<textbox id="txtCity"  width="150px"/>
+						</row>
+						<row align="center">
+							<label value="Province " />
+							<textbox id="txtProvince" width="150px"/>
+						</row>
+
+						<row width="500px" style="font-size:10px" >
+							<label value="Your Information" style="font-size:20px"/>
+						</row>
+						<row align="center">
+							<label value="First Name * " />
+							<textbox id="txtFName" width="150px"/>
+							<label value="Last Name *" />
+							<textbox id="txtLName" width="150px"/>
+						</row>
+						<row align="center">
+							<label value="Salutation * " />
+							<hlayout>
+							<combobox id="salulate" width="150px">
+								<comboitem id="comMr"  label="Mr." />
+								<comboitem id="comMrs"  label="Mrs." />
+								<comboitem id="comMiss"  label="Miss" />
+							</combobox>
+							</hlayout>
+						</row>
+						<row align="center">
+							<label value="Email Address *" />
+							<textbox id="txtEmail" width="150px"/>
+						</row>
+						<row align="center">
+							<label value="Password * " />
+							<textbox  id="txtPass"  width="150px"/>
+						</row>
+						<row >
+							<button id="btnSave" label="Save"/>
+ 							<button id="btnClear" label="Clear"/>
+ 						</row>
+					</rows>	
+
+					</grid>
+		   		</center>
+</borderlayout>
+    </window>
+</zk>

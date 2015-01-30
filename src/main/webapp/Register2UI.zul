@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Edit your information" contentType="text/html;charset=UTF-8"?>
+<zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.Register2Composer" id="wndMain">
+    	<borderlayout style="background:white;" height="1000px">
+    		<north> 
+       		
+        	</north>
+          <center>
+            <grid>
+          <auxhead>
+              <auxheader colspan="4" label="Edit Profile" />
+          </auxhead>
+            <columns>
+              <column label=" " width="200px"/>
+              <column label=" " width="800px"/>
+            </columns>
+            <rows>
+              <!-- <row>
+                <label value="Company Information" style="font-size:20px"/>
+              </row>
+              <row>
+                  Company Name *
+                  <textbox  id="companyName" width="150px"/>
+              </row>
+              <row>
+                  VAT
+                  <textbox  id="vat" width="150px"/>
+              </row> 
+              <row>
+                  Company Phone *
+                  <textbox  id="companyPhone" width="150px"/>
+              </row> -->
+
+              <row>
+                <label value="Main Address" style="font-size:20px"/>
+              </row>
+              <row>
+                  Street name *
+                  <textbox  id="streetname" width="150px"/>
+              </row>
+              <row>
+                  Street number
+                  <textbox  id="streetnumber" width="150px"/>
+              </row>
+              <row>
+                  Postcode/Zip *
+                  <textbox  id="postcode" width="150px"/>
+              </row>
+              <row>
+                  Town/City *
+                  <textbox  id="city" width="150px"/>
+              </row>
+              <row>
+                  Province *
+                  <textbox  id="province" width="150px"/>
+              </row>
+
+              <row>
+                <label value="Your Information" style="font-size:20px"/>
+              </row>
+              <row>
+                  First Name *
+                  <textbox  id="fname" width="150px"/>
+              </row>
+              <row>
+                  Last Name *
+                  <textbox  id="lname" width="150px"/>
+              </row>
+              <row>
+                  Email Address *
+                  <textbox  id="email" width="150px"/>
+              </row>
+              <row>
+                  Password *
+                  <textbox  id="pass" width="150px"/>
+              </row>
+              <row align="center" >
+                <button id="btnSave" label="Save"/>
+                <button id="btnEdit" label="Edit"/>
+              </row>
+
+            </rows>
+
+          </grid>
+          </center>
+    	</borderlayout>
+    </window>
+</zk>

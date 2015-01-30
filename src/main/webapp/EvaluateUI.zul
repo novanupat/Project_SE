@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Untitiled ZUL" contentType="text/html;charset=UTF-8"?><zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.EvaluateCompoer" style="margin:auto;" width="1000px" id="wndMain">
+  <borderlayout height="1000px">
+    	<north autoscroll="true">
+    		
+    	</north>
+    	<center>
+    		<vlayout>
+						<label value="Shipment Details" style="font-weight:bold;"/>
+		   				<hbox/>
+		   				<hbox>
+		   					<label value="Packaging Type"/>
+		   					<label value="*" style="color:red;font-size:16px;"/>
+		   					<space/>
+		   					<combobox id="pk">
+		   						<comboitem label="Regular"/>
+		   						<comboitem label="Express"/>
+		   					</combobox>
+		   						   				
+		   					<label value="Shipment reference"/>
+		   					<label value="*" style="color:red;font-size:16px"/>
+							<textbox id="sref"/>
+							
+		   				
+		   				</hbox>
+		   				<hbox>
+		   					<space/>
+							<space/>
+							<space/>
+		   					<label value="Maximum Weight allowed for Packaging type is 9.999" style="color:red;"/>
+		   				</hbox>
+		   			
+		   				<grid>
+							<columns menupopup="auto">
+								<column label="Piece Contents"/>
+								<column label="Weight"/>
+								<column label="Lenght (cm)"/>
+								<column label="Width (cm) "/>
+								<column label="High (cm)"/>
+								<column label="Confirm"/>
+							</columns>
+							<rows>
+								<row>
+									<textbox id="contencts"/>
+									<intbox id="weight"/>
+									<intbox id="lcms"/>
+									<intbox id="wcms"/>
+									<intbox id="hcms"/>
+									<button id="add">Add</button>
+								</row>
+							</rows>
+						</grid>
+						
+						<hbox>
+							<label value="List of Evaluate" style="font-weight:bold;"/>
+							<label id="send" style="color:red;font-weight:bold;"/>
+							<label id="recei" style="color:red;font-weight:bold;"/>
+						</hbox>
+						<grid>
+							<columns menupopup="auto">
+								<column label="No."/>
+								<column label="Piece Contents"/>
+								<column label="Weight"/>
+								<column label="Lenght (cm)"/>
+								<column label="Width (cm) "/>
+								<column label="High (cm)"/>
+								<column label="Prices"/>
+							</columns>
+							<rows>
+								<row>
+									<listbox id="lstno"/>
+									<listbox id="lstco"/>
+									<listbox id="lstwe"/>
+									<listbox id="lstlc"/>
+									<listbox id="lstwc"/>
+									<listbox id="lsthc"/>
+									<listbox id="lstpi"/>
+								</row>
+							</rows>
+						</grid>
+						<hbox>
+							
+							<label value="Total no. of Pieces"/>
+							<listbox id="ptotal" width="100px"/>
+							<label value="Total Weight."/>
+							<listbox id="wtotal" width="100px"/>
+							<label value="(kgs)"/>
+							<label value="(Maximum 1000 kg)" style="color:red;"/>
+						</hbox>
+		   				<button id="confirm">Next</button>
+		   			</vlayout>
+    	</center>
+   	</borderlayout>
+    </window>
+</zk>

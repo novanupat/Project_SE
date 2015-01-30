@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Untitiled ZUL" contentType="text/html;charset=UTF-8"?><zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.LoginComposer" id="wndMain">
+    	 <image src="/images/Log2.png"  height="610px" width="1000px" />
+    </window>
+</zk>

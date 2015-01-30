@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?page title="Receiver3" contentType="text/html;charset=UTF-8"?><zk xmlns:h="xhtml">
+    <window apply="sut.se.project.web.Receiver3Composer" id="wndMain">
+    	<borderlayout style="background:white;" height="1500px">
+			<north>
+				
+			</north>
+			<center>
+				<grid>
+					<columns sizable="true">
+						<column label="Choose recipients" sort="auto" style="font-size:20px" />
+					</columns>
+					<rows>
+						<row align="center">
+							<button id="old" label="Old Receiver" style="font-size:16px;"></button>
+						</row>
+						<row align="center">
+							<button id="ne" label="New Receiver" style="font-size:16px;"></button>
+						</row>
+					</rows>
+				</grid>
+			</center>
+		</borderlayout>
+    </window>
+</zk>
